@@ -24,6 +24,7 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 set noeb vb t_vb=
+set nrformats=
 
 if has('gui_running')
 	set guioptions-=T
