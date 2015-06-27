@@ -1,6 +1,7 @@
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
-source $VIMRUNTIME/mswin.vim
+"don't source mswin.vim - changes vim behavior
+"source $VIMRUNTIME/mswin.vim
 behave mswin
 
 "custom settings
