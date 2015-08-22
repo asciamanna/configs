@@ -7,7 +7,7 @@ behave mswin
 "custom settings
 execute pathogen#infect()
 set title
-set tabstop=2
+set tabstop=2 shiftwidth=2 expandtab
 set ts=2
 set showmode
 set nu
@@ -17,7 +17,6 @@ set hlsearch
 set ignorecase
 set smartcase
 set autoindent
-set shiftwidth=2
 set nobackup
 syntax enable
 syntax on
