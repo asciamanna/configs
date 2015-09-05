@@ -1,10 +1,16 @@
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""" 
+"  Anthony Sciamanna (asciamanna@gmail.com)
+" windows _vimrc
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set nocompatible
 source $VIMRUNTIME/vimrc_example.vim
-"don't source mswin.vim - changes vim behavior
-"source $VIMRUNTIME/mswin.vim
+
+" don't source mswin.vim - changes vim behavior
+" source $VIMRUNTIME/mswin.vim
 behave mswin
 
-"custom settings
+" using pathogen for plugin management
+" https://github.com/tpope/vim-pathogen
 execute pathogen#infect()
 set title
 set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
@@ -17,9 +23,11 @@ set ignorecase
 set smartcase
 set autoindent
 set nobackup
+set wildmenu
+set showcmd
 syntax enable
 syntax on
-filetype plugin indent on
+filetype indent plugin on
 set background=dark
 colorscheme solarized
 set noeb vb t_vb=
