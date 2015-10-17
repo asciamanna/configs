@@ -1,0 +1,6 @@
+# $env:Path += ";C:\Program Files (x86)\Vim\gvim74"
+set-alias vim "C:\Program Files (x86)\Vim\vim74\gvim.exe"
+set-alias vi "C:\Program Files (x86)\Vim\vim74\gvim.exe"
+set-alias mdp "C:\Users\Anthony\AppData\Local\Programs\MarkdownPad 2\MarkdownPad2.exe"
+set-alias markdownpad "C:\Users\Anthony\AppData\Local\Programs\MarkdownPad 2\MarkdownPad2.exe"
+set-alias markdown "C:\Users\Anthony\AppData\Local\Programs\MarkdownPad 2\MarkdownPad2.exe"
