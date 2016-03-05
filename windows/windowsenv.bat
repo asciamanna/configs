@@ -7,3 +7,6 @@ choco upgrade ConEmu -y
 choco upgrade git.install -y
 choco upgrade vim -y
 choco upgrade kdiff3 -y
+choco upgrade markdownpad2 -y
+choco upgrade putty -y
+choco upgrade paint.net -y
