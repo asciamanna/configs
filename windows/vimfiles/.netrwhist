@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='C:/Users/Anthony/Downloads/diveintopython-examples-5.4/diveintopython-5.4/py'
+let g:netrw_dirhist_2='C:\Users\Anthony\Documents\GitHub\ImprovedItunesParser\lib\itunesparser'
