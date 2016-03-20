@@ -30,7 +30,6 @@ syntax on
 filetype indent plugin on
 set background=dark
 colorscheme solarized
-autocmd BufNewFlie,BufReadPost *.md set filetype=markdown
 set noeb vb t_vb=
 set nrformats=
 
