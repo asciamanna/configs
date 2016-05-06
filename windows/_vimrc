@@ -25,6 +25,7 @@ set autoindent
 set nobackup
 set wildmenu
 set showcmd
+set ruler
 syntax enable
 syntax on
 filetype indent plugin on
@@ -34,5 +35,6 @@ set noeb vb t_vb=
 set nrformats=
 
 if has('gui_running')
+  set guifont=Consolas:h10:cDEFAULT
 	set guioptions-=T
 end
