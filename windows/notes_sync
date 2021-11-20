@@ -2,7 +2,7 @@
 
 NOTES_PATH="/mnt/c/Users/anthony/documents/git/obsidian-notes/"
 
-cd "$ZK_PATH"
+cd "$NOTES_PATH"
 
 git pull
 
